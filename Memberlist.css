@@ -1,0 +1,68 @@
+
+/* @name TokyoMidnight MemberList
+* @author SnajperEXE
+* @version 1.0.0
+* @description Compact member list with smooth hover expansion.
+
+/* ---------- MEMBER LIST COLLAPSE ---------- */
+
+[class*="membersWrap_"] {
+    width: 48px !important;
+    min-width: 48px !important;
+    overflow: hidden;
+    will-change: width;
+    border-left: 1px solid rgba(87, 255, 143, 0.08);
+    
+    transition:
+        width 0.35s cubic-bezier(0.4, 0, 0.2, 1),
+        border-color 0.35s ease,
+        box-shadow 0.35s ease; 
+}
+
+[class*="membersWrap_"]:hover,
+[class*="membersWrap_"]:focus-within {
+    width: var(--custom-member-list-width) !important;
+    min-width: var(--custom-member-list-width) !important;
+
+    border-left-color: rgb(247, 1, 1);
+    box-shadow: inset 1px 0 0 rgba(109, 2, 141, 0.568);
+}
+
+/* ---------- MEMBER PANEL ---------- */
+
+[class*="members_"] {
+    width: inherit !important;
+    transition: width 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ---------- FLEX FIXES ---------- */
+
+[class*="member_"],
+[class*="layout_"],
+[class*="memberInner_"] {
+    min-width: 0 !important;
+}
+
+/* ---------- USERNAMES ---------- */
+
+[class*="membersWrap_"] .username__703b9 {
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+[class*="membersWrap_"]:hover [class*="name_"],
+[class*="membersWrap_"]:focus-within [class*="name_"] {
+    opacity: 1;
+}
+
+/* ---------- ROLE HEADERS ---------- */
+
+[class*="membersGroup_"] {
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+[class*="membersWrap_"]:hover [class*="membersGroup_"],
+[class*="membersWrap_"]:focus-within [class*="membersGroup_"] {
+    opacity: 1;
+}

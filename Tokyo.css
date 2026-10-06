@@ -1,0 +1,100 @@
+/* === IMPORTS === */
+@import url("https://snajperexe.github.io/TokyoMidnight/links.css");
+@import url("https://snajperexe.github.io/TokyoMidnight/gamecards.css");;
+@import url("https://raw.githubusercontent.com/Antonikarmai03/MytokyoMidnight/refs/heads/main/TokyoMidnight-MemberList.theme.css");
+@import url("https://github.com/Antonikarmai03/MytokyoMidnight.git");
+
+/* === FONTS === */
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+:root {
+
+  /* === CORE ATMOSPHERE === */
+
+  --tokyo-midnight-bg-main: #0b0b14;
+  --tokyo-midnight-bg-sidebars: #0f0f12f7;
+  --tokyo-midnight-bg-panels: #18181df6;
+  --tokyo-midnight-app-bg: url("https://snajperexe.github.io/TokyoMidnight/bgtm.png");
+
+  --tokyo-midnight-bg-main: #000005;
+  --tokyo-midnight-bg-sidebars: #000000f7;
+  --tokyo-midnight-bg-panels: #000002;
+  --tokyo-midnight-app-bg: url("https://snajperexe.github.io/TokyoMidnight/bgtm.png");
+  --tokyo-midnight-home-logo: url("https://i.pinimg.com/736x/97/b1/44/97b1446ecbdb0589cf02d374f5bffcc9.jpg");
+
+  /* === COLORS === */
+  --tokyo-midnight-black: #0c0c11;
+  --tokyo-midnight-gray: #000000;
+  --tokyo-midnight-yellow: #ff0303;
+  --tokyo-midnight-orange: #e60707;
+  --tokyo-midnight-green: #550303;
+  --tokyo-midnight-green2: #ff0000;
+  --tokyo-midnight-blue: #242ec8;
+  --tokyo-midnight-purple: #6235e7;
+  --tokyo-midnight-pink: #d9367d;
+  --tokyo-midnight-red: #df0f1de5;
+  --tokyo-midnight-critical-gradient: linear-gradient(135deg, #30070c, #6f0916);
+  --tokyo-midnight-special-buttons: linear-gradient(90deg, #2a0007, #ff0055, #a30022) !important;
+  --tokyo-midnight-opal: linear-gradient( 135deg, #000000 0%, #030007 15%, #1d1d1d 30%, #ffffff 50%, #ff8ad8 70%, #f50909 85%, #520230 100%);
+  --tokyo-midnight-custom1: linear-gradient(135deg, #6c1212 0%, #991b1b 40%, #350286 100%);
+  --tokyo-midnight-custom2: linear-gradient(90deg, #ff0303, #7928ca, #ff007f);
+  --tokyo-midnight-custom3: linear-gradient(90deg, #070000, #c805dab0, rgb(5, 230, 178));
+  --tokyo-midnight-custom4: linear-gradient(90deg, #700303, #a10051, #5602c5);
+  --tokyo-midnight-custom5: linear-gradient(90deg, #6c01d157, #f30202dc);
+  --tokyo-midnight-rainbow: linear-gradient(90deg, #b84a4a, #690906, #000000, #ce0621, #49021a, #8107b1, #84049b, #b84a4a);
+
+ /* === TEXT === */
+
+  --tokyo-midnight-text-normal: #ff0303;
+  --tokyo-midnight-text-header: #f70088;
+  --tokyo-midnight-link-cards: #ff0379;
+
+  /* === CHANNELS === */
+
+  --tokyo-midnight-channel-text: #af0808e5;
+  --tokyo-midnight-channel-text-hover: #39025e;
+  --tokyo-midnight-channel-active: #330be6e0;
+  --tokyo-midnight-category-text: #fc0054;
+  /* === ICONS === */
+  --tokyo-midnight-icons: #ff0000;
+  --tokyo-midnight-icons-2: #070000;
+  /* === ACCENTS === */
+
+  --tokyo-midnight-main: hsl(351, 100%, 1%);
+  --tokyo-midnight-main2: #470404;
+  --tokyo-midnight-guild_dot_online: #5b09a8;
+  --tokyo-midnight-guild_dot_total: #4b0202;
+
+  /* === BORDERS === */
+
+  --tokyo-midnight-border:rgb(2, 0, 0);
+  --tokyo-midnight-border-strong: #f0044b97;
+
+  /* === SHADOWS === */
+
+  --tokyo-midnight-text-shadow: 0 0 8px rgb(0, 5, 1);
+  --tokyo-midnight-border-shadow: 0 0 8px rgba(241, 8, 8, 0.704);
+  --tokyo-midnight-shadow-glow: 0 0 18px rgba(129, 6, 74, 0.842);
+  --tokyo-midnight-link-shadow: 0 0 15px rgba(244, 11, 22, 0.703);
+  --tokyo-member-fade: linear-gradient(90deg, rgba(0,0,0,0), rgba(90,250,162,.08));
+
+  /* === WARNING === */
+
+  --tokyo-midnight-warning: #ff4d53;
+  --tokyo-midnight-warning-soft: hsla(0, 86%, 67%, 0.12);
+  --tokyo-midnight-warning-bg: #1c0000;
+  --tokyo-mifnight-warning-text: #ffacbf;
+
+  /* === TOKYOMIDNIGHT SETTINGS === */
+
+    --tokyo-memberlist-enabled: ;
+    --tokyo-gamecards-enabled: 1;
+
+    /* === MEMBER LIST - WIDTHS === */
+
+    --tokyo-memberlist-width: 240px;
+    --tokyo-memberlist-collapsed: 50px;
+    --tokyo-memberlist-sensor-width: 20px;
+}
